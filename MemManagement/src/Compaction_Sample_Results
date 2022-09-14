@@ -1,0 +1,746 @@
+====================Memory Information after removing 10 percent====================
+
+===============Memory Information of First Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150008000
+Memory ending address:   0x150107fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150008000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x150019000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15001a000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15002c000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x15003e000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15004a000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15004b000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x15004e000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150061000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15006b000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x15006d000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x15007c000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x150091000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150097000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x1500a3000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x1500a5000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1500b7000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1500ce000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1500de000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1500ed000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x150100000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x15000c000
+Hole0 size: 52 KB
+--------------------------------------
+Hole1 starting address: 0x150074000
+Hole1 size: 32 KB
+--------------------------------------
+
+===============Memory Information of Best Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150108000
+Memory ending address:   0x150207fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150108000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x150119000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15011a000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15012c000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x15013e000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15014a000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15014b000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x15014e000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150161000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15016b000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x15016d000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x15017c000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x150191000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150197000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x1501a3000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x1501a5000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1501b7000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1501ce000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1501de000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1501ed000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x150200000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x15010c000
+Hole0 size: 52 KB
+--------------------------------------
+Hole1 starting address: 0x150174000
+Hole1 size: 32 KB
+--------------------------------------
+
+===============Memory Information of Worst Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150208000
+Memory ending address:   0x150307fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150208000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x150219000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15021a000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15022c000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x15023e000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15024a000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15024b000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x15024e000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150261000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15026b000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x15026d000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x15027c000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x150291000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150297000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x1502a3000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x1502a5000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1502b7000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1502ce000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1502de000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1502ed000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x150300000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x15020c000
+Hole0 size: 52 KB
+--------------------------------------
+Hole1 starting address: 0x150274000
+Hole1 size: 32 KB
+--------------------------------------
+
+
+====================Memory Information after Compaction==============================
+
+===============Memory Information of First Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150008000
+Memory ending address:   0x150107fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150008000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15000c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15000d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15001f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150031000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15003d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15003e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150041000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150054000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15005e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150060000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150067000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15007c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150082000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15008e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150090000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1500a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1500b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1500c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1500d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1500eb000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x1500f3000
+Hole0 size: 84 KB
+--------------------------------------
+
+===============Memory Information of Best Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150108000
+Memory ending address:   0x150207fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150108000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15010c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15010d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15011f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150131000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15013d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15013e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150141000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150154000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15015e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150160000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150167000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15017c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150182000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15018e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150190000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1501a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1501b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1501c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1501d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1501eb000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x1501f3000
+Hole0 size: 84 KB
+--------------------------------------
+
+===============Memory Information of Worst Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150208000
+Memory ending address:   0x150307fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150208000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15020c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15020d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15021f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150231000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15023d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15023e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150241000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150254000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15025e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150260000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150267000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15027c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150282000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15028e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150290000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1502a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1502b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1502c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1502d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1502eb000
+Process22 size: 32 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+Hole0 starting address: 0x1502f3000
+Hole0 size: 84 KB
+--------------------------------------
+
+
+=========================Memory Information after refilling==========================
+
+===============Memory Information of First Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150008000
+Memory ending address:   0x150107fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150008000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15000c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15000d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15001f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150031000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15003d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15003e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150041000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150054000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15005e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150060000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150067000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15007c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150082000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15008e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150090000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1500a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1500b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1500c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1500d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1500eb000
+Process22 size: 32 KB
+------------------------------------------
+Process24 starting address: 0x1500f3000
+Process24 size: 16 KB
+------------------------------------------
+Process25 starting address: 0x1500f7000
+Process25 size: 52 KB
+------------------------------------------
+Process26 starting address: 0x150104000
+Process26 size: 4 KB
+------------------------------------------
+Process30 starting address: 0x150105000
+Process30 size: 4 KB
+------------------------------------------
+Process34 starting address: 0x150106000
+Process34 size: 8 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+
+===============Memory Information of Best Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150108000
+Memory ending address:   0x150207fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150108000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15010c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15010d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15011f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150131000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15013d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15013e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150141000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150154000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15015e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150160000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150167000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15017c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150182000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15018e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150190000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1501a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1501b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1501c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1501d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1501eb000
+Process22 size: 32 KB
+------------------------------------------
+Process24 starting address: 0x1501f3000
+Process24 size: 16 KB
+------------------------------------------
+Process25 starting address: 0x1501f7000
+Process25 size: 52 KB
+------------------------------------------
+Process26 starting address: 0x150204000
+Process26 size: 4 KB
+------------------------------------------
+Process30 starting address: 0x150205000
+Process30 size: 4 KB
+------------------------------------------
+Process34 starting address: 0x150206000
+Process34 size: 8 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+
+===============Memory Information of Worst Fit algorithm===============
+size: 1MB
+Memory starting address: 0x150208000
+Memory ending address:   0x150307fff
+
+++++++++++Process Information++++++++++
+------------------------------------------
+Process0 starting address: 0x150208000
+Process0 size: 16 KB
+------------------------------------------
+Process2 starting address: 0x15020c000
+Process2 size: 4 KB
+------------------------------------------
+Process3 starting address: 0x15020d000
+Process3 size: 72 KB
+------------------------------------------
+Process4 starting address: 0x15021f000
+Process4 size: 72 KB
+------------------------------------------
+Process5 starting address: 0x150231000
+Process5 size: 48 KB
+------------------------------------------
+Process6 starting address: 0x15023d000
+Process6 size: 4 KB
+------------------------------------------
+Process7 starting address: 0x15023e000
+Process7 size: 12 KB
+------------------------------------------
+Process8 starting address: 0x150241000
+Process8 size: 76 KB
+------------------------------------------
+Process9 starting address: 0x150254000
+Process9 size: 40 KB
+------------------------------------------
+Process10 starting address: 0x15025e000
+Process10 size: 8 KB
+------------------------------------------
+Process11 starting address: 0x150260000
+Process11 size: 28 KB
+------------------------------------------
+Process13 starting address: 0x150267000
+Process13 size: 84 KB
+------------------------------------------
+Process14 starting address: 0x15027c000
+Process14 size: 24 KB
+------------------------------------------
+Process15 starting address: 0x150282000
+Process15 size: 48 KB
+------------------------------------------
+Process16 starting address: 0x15028e000
+Process16 size: 8 KB
+------------------------------------------
+Process17 starting address: 0x150290000
+Process17 size: 72 KB
+------------------------------------------
+Process18 starting address: 0x1502a2000
+Process18 size: 92 KB
+------------------------------------------
+Process19 starting address: 0x1502b9000
+Process19 size: 64 KB
+------------------------------------------
+Process20 starting address: 0x1502c9000
+Process20 size: 60 KB
+------------------------------------------
+Process21 starting address: 0x1502d8000
+Process21 size: 76 KB
+------------------------------------------
+Process22 starting address: 0x1502eb000
+Process22 size: 32 KB
+------------------------------------------
+Process24 starting address: 0x1502f3000
+Process24 size: 16 KB
+------------------------------------------
+Process25 starting address: 0x1502f7000
+Process25 size: 52 KB
+------------------------------------------
+Process26 starting address: 0x150304000
+Process26 size: 4 KB
+------------------------------------------
+Process30 starting address: 0x150305000
+Process30 size: 4 KB
+------------------------------------------
+Process34 starting address: 0x150306000
+Process34 size: 8 KB
+------------------------------------------
+
++++++++++++Hole Information++++++++++++
+--------------------------------------
+
