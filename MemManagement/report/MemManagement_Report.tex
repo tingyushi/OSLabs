@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{subcaption}
+\usepackage{mwe}
+
+\geometry{margin = 0.75in}
+
+\title{3SH3 LAB 3}
+\author{
+L06 G08\\
+Tingyu Shi(400253854)\\
+Jiacheng Wu(400207981)}
+\date{\today}
+\begin {document}
+\maketitle %%%%%%%%make title
+\newpage
+\section{Analysis}
+\subsection{Three algorithms without Compaction}
+For the sample output, please check section 2.1.\\
+For the code, please check section 3.1.\\
+he following are results of 10 trials.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+         & First Fit & Best Fit & Worst Fit \\ \hline
+Trial 1  & 72        & 72       & 72        \\ \hline
+Trial 2  & 132       & 132      & 132       \\ \hline
+Trial 3  & 120       & 120      & 120       \\ \hline
+Trial 4  & 232       & 232      & 232       \\ \hline
+Trial 5  & 184       & 184      & 184       \\ \hline
+Trial 6  & 176       & 176      & 176        \\ \hline
+Trial 7  & 160       & 160      & 160       \\ \hline
+Trial 8  & 96        & 96       & 96       \\ \hline
+Trial 9  & 48        & 48       & 48       \\ \hline
+Trial 10 & 148       & 148      & 148        \\ \hline
+\end{tabular}
+\caption{Hole Size(KB) Information after removing 10\% }
+\end{table}
+
+\noindent Average Hole size after removing 10\% is 136.8(KB) 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+         & First Fit & Best Fit & Worst Fit \\ \hline
+Trial 1  & 8        & 8        & 8        \\ \hline
+Trial 2  & 8        & 20       & 56       \\ \hline
+Trial 3  & 20       & 20       & 20       \\ \hline
+Trial 4  & 24       & 24       & 24       \\ \hline
+Trial 5  & 24       & 0        & 44       \\ \hline
+Trial 6  & 16       & 16       & 40        \\ \hline
+Trial 7  & 36       & 36       & 36       \\ \hline
+Trial 8  & 20       & 20       & 60       \\ \hline
+Trial 9  & 28       & 28       & 28       \\ \hline
+Trial 10 & 60       & 12       & 60        \\ \hline
+\end{tabular}
+\caption{Hole Size(KB) Information after refilling }
+\end{table}
+\noindent Average Hole size after refilling(First Fit) is 24.4(KB)\\
+Average Hole size after refilling(Best Fit) is 18.4(KB)\\
+Average Hole size after refilling(Worst Fit) is 37.6(KB)\\
+
+\noindent Frist Fit memory utilization rate $$= \frac{136.8 - 24.4}{136.8} = 82.16\%$$\\
+Best Fit memory utilization rate $$= \frac{136.8 - 18.4}{136.8} = 86.55\%$$\\
+Worst Fit memory utilization rate $$= \frac{136.8 - 37.6}{136.8} = 72.51\%$$\\
+
+\noindent Conclusion: When there is no compaction, $Best\ Fit > First\ Fit > Worst\ Fit$. The experiment result may be caused by the following factors:
+\begin{itemize}
+\item Best Fit tries to find the smallest hole which can fit the process. As
+a result, the hold size left is the smallest.
+\item The experiment is designed in a way that each process's size is a 
+multiple of 4KB and the range is [4KB, 100KB]. This may lead to inaccurate 
+experiment result. If we can use random process size, the result may be more
+accurate.
+\end{itemize}
+\newpage
+\subsection{Three algorithms with Compaction}
+For the sample output, please check section 2.2.\\
+For the code, please check section 3.2.\\
+The following are results of 10 trials.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+         & First Fit & Best Fit & Worst Fit \\ \hline
+Trial 1  & 56        & 56       & 56        \\ \hline
+Trial 2  & 120       & 120      & 120       \\ \hline
+Trial 3  & 168       & 168      & 168       \\ \hline
+Trial 4  & 148       & 148      & 148       \\ \hline
+Trial 5  & 100       & 100      & 100       \\ \hline
+Trial 6  & 84        & 84       & 84        \\ \hline
+Trial 7  & 184       & 184      & 184       \\ \hline
+Trial 8  & 140       & 140      & 140       \\ \hline
+Trial 9  & 144       & 144      & 144       \\ \hline
+Trial 10 & 92        & 92       & 92        \\ \hline
+\end{tabular}
+\caption{Hole Size(KB) Information after removing 10\% and after compaction}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+         & First Fit & Best Fit & Worst Fit \\ \hline
+Trial 1  & 0        & 0       & 0        \\ \hline
+Trial 2  & 20       & 20      & 20       \\ \hline
+Trial 3  & 12       & 12      & 12       \\ \hline
+Trial 4  & 24       & 24      & 24       \\ \hline
+Trial 5  & 4       & 4      & 4       \\ \hline
+Trial 6  & 0        & 0       & 0        \\ \hline
+Trial 7  & 8       & 8      & 8       \\ \hline
+Trial 8  & 8       & 8      & 8       \\ \hline
+Trial 9  & 12       & 12      & 12       \\ \hline
+Trial 10 & 12        & 12       & 12        \\ \hline
+\end{tabular}
+\caption{Hole Size(KB) Information after refilling}
+\end{table}
+\noindent For each trial, after removing 10\% and compaction, there is only
+one hole in the memory and the hole sizes are the same because the program
+removes the same 10\% of the processes. Since there is only one hole in the 
+memory, three algorithms perform in the same way. As as a result, in table 4,
+three algorithms show the same hole sizes for each trial after refilling.\\
+Conclusion: Three algorithms perform the same after compaction as there is
+only one hole in the memory after compaction.
+\newpage
+\section{Sample Outputs}
+\small
+\subsection{Sample output of three algorithms without Compaction}
+\lstinputlisting{../src/No_Compaction_Sample_Results}
+\newpage
+\subsection{Sample output of three algorithms with Compaction}
+\lstinputlisting{../src/Compaction_Sample_Results}
+\newpage
+\scriptsize
+\section{Code}
+\subsection{Three algorithms without Compaction}
+\lstinputlisting[language=C]{../src/Three_Fits.c}
+\newpage
+\subsection{Three algorithms with Compaction}
+\lstinputlisting[language=C]{../src/Compaction_Three_Fits.c}
+\end {document}
