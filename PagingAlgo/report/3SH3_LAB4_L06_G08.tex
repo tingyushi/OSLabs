@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+
+\geometry{margin = 0.75in}
+
+\title{3SH3 LAB4 L06 G08}
+\author{Tingyu Shi(400253854)\\Jiacheng Wu(400207981)}
+\date{\today}
+\begin {document}
+\maketitle %%%%%%%%make title
+\newpage
+\section{Inputs and Outputs}
+\subsection{First set of input and output}
+This set of input and output are provided with the lab instruction.
+\subsubsection{Input}
+\lstinputlisting{../code/sample.dat}
+\subsubsection{Output}
+{\footnotesize \lstinputlisting{../code/sample_out}} 
+\newpage
+\subsection{Second set of input and output}
+\subsubsection{Input}
+\lstinputlisting{../code/sample1.dat}
+\subsubsection{Output}
+{\footnotesize \lstinputlisting{../code/sample1_out}}
+\newpage
+\subsection{Third set of input and output}
+\subsubsection{Input}
+\lstinputlisting{../code/sample2.dat}
+\subsubsection{Output}
+{\footnotesize \lstinputlisting{../code/sample2_out}}
+\newpage
+\section{Code}
+\textcolor{red}{NOTE: If you want to test the code, please change the 
+file name in read\_file function for different input files.}\\
+The following is the code.\\
+{\scriptsize \lstinputlisting[language = C]{../code/paging_algo.c}}
+
+\end {document}
